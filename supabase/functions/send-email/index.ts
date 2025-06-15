@@ -23,8 +23,12 @@ serve(async (req) => {
     console.log("Received email request:", { to, subject });
 
     // Create a Supabase client with the service role key
-    const supabaseUrl = Deno.env.get("SUPABASE_URL") || "";
-    const supabaseKey = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY") || "";
+    const supabaseUrl =
+      Deno.env.get("https://dcwkzbtlzukqtlxclcpx.supabase.co") || "";
+    const supabaseKey =
+      Deno.env.get(
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRjd2t6YnRsenVrcXRseGNsY3B4Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc0MjQ2ODc5MywiZXhwIjoyMDU4MDQ0NzkzfQ.AdAghXvdJ1J2LDV5xLugv8TUCirmE7G202AwLFoRHMI",
+      ) || "";
     const supabase = createClient(supabaseUrl, supabaseKey);
 
     // Store order in database
