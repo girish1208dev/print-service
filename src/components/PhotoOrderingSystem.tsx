@@ -266,7 +266,7 @@ export default function PhotoOrderingSystem() {
           Photo to Wall - Print Service
         </h1>
         <img
-          src="/images/tempo-image-20250320T113359327Z.png"
+          src="/images/newprint.jpg"
           alt="Photo to Wall Logo"
           className="mt-4 h-20 w-auto object-contain"
         />
