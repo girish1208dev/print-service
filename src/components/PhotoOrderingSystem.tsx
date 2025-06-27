@@ -265,7 +265,12 @@ export default function PhotoOrderingSystem() {
         <h1 className="text-3xl font-bold text-center">
           Photo to Wall - Print Service
         </h1>
-        <div className="mt-2 bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full flex items-center">
+        <img
+          src="/images/tempo-image-20250320T113359327Z.png"
+          alt="Photo to Wall Logo"
+          className="mt-4 h-20 w-auto object-contain"
+        />
+        <div className="mt-4 bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full flex items-center">
           <Zap className="h-4 w-4 mr-1" />
           <span className="font-semibold">
             Instant Photos Delivery Available!
